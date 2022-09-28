@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body style="background-color: black">
+    <div class="header">
+      <img src="images/AMG-Logo.jpg" class="logoheader" />
+    </div>
+    <hr />
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a class="activepage" href="page1.html"> AMG Vehicles</a>
+      <a href="page2.html">AMG History</a>
+      <a href="page3.html">AMG Gallery </a>
+      <a href="page4.html">AMG Vote </a>
+    </div>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <h1 class="centerfont">AMG-Performace Vehicles</h1>
+    <p class="centerfont">
+      All of the vehicles below are AMG-Performance vehicles.<br />
+      Nearly all AMGs are hand-built using a “one man, one engine” philosophy.
+      There are only about fifty diffrenet AMG engine builders in Affalterbach.
+    </p>
+
+    <div class="row">
+      <div class="column side">
+        <h2 class="centerfont">A-Class</h2>
+        <img
+          src="images/cla.jpg"
+          class="logoheader"
+          id="aclass"
+          onMouseOver="showText('text')"
+          onMouseOut="hide();"
+        />
+        <ul>
+          <li>Body Type: Hatchback/Sedan</li>
+          <li>Horsepower: 306hp</li>
+          <li>Torque: 295lb-ft</li>
+        </ul>
+        <h2 class="centerfont">E-Class</h2>
+        <img src="images/eclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: Estate/Sedan/Coupe/Cabriolet</li>
+          <li>Horsepower: 435-612hp</li>
+          <li>Torque: 384-627lb-ft</li>
+        </ul>
+        <h2 class="centerfont">GL-Class</h2>
+        <img src="images/glclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: SUV</li>
+          <li>Horsepower: 306-612hp</li>
+          <li>Torque: 295-627lb-ft</li>
+        </ul>
+      </div>
+      <div class="column middle">
+        <h2 class="centerfont">C-Class</h2>
+        <img src="images/cclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: Estate/Sedan/Coupe/Cabriolet</li>
+          <li>Horsepower: 385-510hp</li>
+          <li>Torque: 384-516lb-ft</li>
+        </ul>
+        <h2 class="centerfont">S-Class</h2>
+        <img src="images/sclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: Sedan/Coupe</li>
+          <li>Horsepower: 603hp</li>
+          <li>Torque: 664lb-ft</li>
+        </ul>
+        <h2 class="centerfont">GT-Class</h2>
+        <img src="images/gtclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: Sedan/Coupe</li>
+          <li>Horsepower: 362-630hp</li>
+          <li>Torque: 389-664lb-ft</li>
+        </ul>
+      </div>
+      <div class="column side">
+        <h2 class="centerfont">CL-Class</h2>
+        <img src="images/cls.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: Coupe/Shooting Brake</li>
+          <li>Horsepower: 360-435hp</li>
+          <li>Torque: 295-531lb-ft</li>
+        </ul>
+        <h2 class="centerfont">G-Class</h2>
+        <img src="images/gclass.jpg" class="logoheader" />
+        <ul>
+          <li>Body Type: SUV</li>
+          <li>Horsepower: 585hp</li>
+          <li>Torque: 627lb-ft</li>
+        </ul>
+      </div>
+    </div>
+    <p class="centerfont">
+      For more Information about Mercedes-Benz AMG vehicle
+      <a href="https://www.mercedes-amg.com/en/home.html"> click here</a>
+    </p>
+    <hr />
+    <div class="footer">
+      <p>
+        Made | Designed | Written by James Lee
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.mbusa.com/en/amg"> AMG Offical Website</a>
+      </p>
+    </div>
+    <hr />
+  </body>
+</html>

@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: black;
+  padding: 1px;
+  text-align: center;
+}
+
+/* style 1 */
+.logoheader {
+  width: 500px;
+  length: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Michroma", sans-serif;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.activepage) {
+  background-color: white;
+  text-color: black;
+  color: black;
+}
+
+/* indicate active page on nav */
+.topnav a.activepage {
+  background-color: black;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.column {
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  flex-basis: 33%;
+}
+
+/* Middle column */
+.column.middle {
+  flex-basis: 33%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: 0px 100px;
+}
+
+.row_gallery {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column_gallery {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 5px;
+}
+
+.column_gallery_img {
+  margin-top: 15px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.bgimage {
+  background-image: url("https://www.mercedes-amg.com/content/global/en/world-of-amg/stories/inside-amg/Black-Series-History/jcr:content/stage/media/slides/slide/image.media6.responsive_full_viewport_16_9.1594140256160.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: cover;
+  background-size: cover;
+  padding-top: 0px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.styled-table thead tr {
+  background-color: #f3f3f3;
+  color: black;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #f3f3f3;
+}
+
+.centerfont {
+    background-image: url("images/main.jpg");
+}
