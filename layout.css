@@ -158,6 +158,6 @@ body {
   color: #f3f3f3;
 }
 
-.centerfont {
+.bg-front.centerfont {
     background-image: url("images/main.jpg");
 }
